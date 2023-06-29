@@ -29,6 +29,7 @@ section#redes {
 }
 
 section#redes img{
+    display: inline;
     width: 60px;
     margin: 10px;
     border-radius: 50%;
@@ -49,4 +50,20 @@ iframe#tela {
     left: 24px;
     width: 264px;
     height: 466px;
+}
+
+@media(max-width:600px) {
+    section#redes {
+        text-align: center;
+    }
+
+    section#redes img{
+        display: inline-flex;
+        width: 45px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
+        box-sizing: border-box;
+    }
+
 }
