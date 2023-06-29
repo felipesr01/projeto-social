@@ -59,7 +59,7 @@ iframe#tela {
 
     section#redes img{
         display: inline-flex;
-        width: 45px;
+        width: 40px;
         margin: 10px;
         border-radius: 50%;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.623);
